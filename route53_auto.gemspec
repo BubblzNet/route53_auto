@@ -32,5 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
 
   spec.add_dependency 'aws-sdk', '~> 2'
-  spec.add_dependency 'ec2_switcher', '~> 0.1.2'
+  spec.add_dependency 'ec2_switcher'
 end
