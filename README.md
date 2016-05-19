@@ -25,11 +25,11 @@ Or install it yourself as:
 
 Add as environment variables:
 
-`AMAZON_REGION = 'your-region-1'`
+`EC2_AMAZON_REGION = 'your-region-1'`
 
-`AMAZON_ACCESS_KEY = 'your-access-key'`
+`EC2_AMAZON_ACCESS_KEY = 'your-access-key'`
 
-`AMAZON_SECRET_ACCESS = 'your-secret-access-key'`
+`EC2_AMAZON_SECRET_ACCESS = 'your-secret-access-key'`
 
 
 **Second method**
@@ -43,7 +43,7 @@ And prototype it like this ->
 aws_access_key_id = youraccesskey
 aws_secret_access_key = yoursecretaccesskey
 ```
-**If your ec2 server is located somewhere else than `eu-west-1`, please fill up `AMAZON_REGION` variable**
+**If your ec2 server is located somewhere else than `eu-west-1`, please fill up `EC2_AMAZON_REGION` variable**
 
 
 ## Usage
